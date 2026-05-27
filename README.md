@@ -153,6 +153,7 @@ INFO: Uvicorn running on http://127.0.0.1:8000
 ### 申请 API Key
 
 访问 https://mcp.agentichotel.cn/apply 申请 API Key
+- 技术支持微信群：[扫码加入](https://raw.githubusercontent.com/RollingGo-AI/rollinggo-hotel-mcp/main/support-wehcat%20group.png)
 
 ## 许可证
 
