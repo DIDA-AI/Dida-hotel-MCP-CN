@@ -1,4 +1,4 @@
-# RollingGo MCP Server
+# RollingGo Hotel MCP Server
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
