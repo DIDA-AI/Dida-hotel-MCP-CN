@@ -209,7 +209,7 @@ The server provides 3 tools:
 
 > **Note:** `price` is an object, not a number. Fields may be missing or `null` depending on city/supply source.
 
----
+
 
 ### 2) getHotelDetail
 
@@ -284,7 +284,7 @@ The server provides 3 tools:
 
 > **Note:** On failure, the response may contain an error message (e.g. "Failed to fetch pricing, please retry later") or structured error fields. The `roomRatePlans` array can be long — consider paginating or limiting display on the client side.
 
----
+
 
 ### 3) getHotelSearchTags
 
@@ -321,7 +321,7 @@ Retrieves available tags for use in `searchHotels.hotelTags`. Suitable for local
 - Hotel Type
 - Pricing
 
----
+
 
 ## Usage Examples
 
@@ -379,10 +379,9 @@ Retrieves available tags for use in `searchHotels.hotelTags`. Suitable for local
 ```
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+
 
 ## 💬 Support
 📧 Email: [york.lu@dida.com](mailto:york.lu@dida.com)
