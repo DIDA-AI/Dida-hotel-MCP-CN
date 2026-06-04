@@ -1,6 +1,6 @@
 ﻿# RollingGo — Hotel Search & Booking MCP
 
-[**CN 中文**](#中文版本) | [**US English**](README.md)
+[**中文**](#中文版本) | [**English**](README.md)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
@@ -8,9 +8,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-[🏠 官网](https://rollinggo.store/) · [🚀 快速开始](#快速开始) · [🔧 工具](#工具) · [📚 使用示例](#使用示例) · [💬 技术支持](#技术支持)
+🏠 [官网](https://rollinggo.store/) · 🚀[ 快速开始](#快速开始) · 🔧 [工具](#工具) · 📚[ 使用示例](#使用示例) · 💬[ 技术支持](#技术支持)
 
----
+
 
 ## 项目简介
 **RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入**。
@@ -42,7 +42,7 @@
 
 ⚠️如果你使用 ClawHub/扣子/Qclaw等Agent 平台，请使用我们的[Rollinggo全能订机票酒店Skill](https://modelscope.cn/collections/yorklu/RollingGo-quannengdingjiudianjipiao-Skill)。请参考[RollingGo Skill 配置指南](https://rollinggo.store/docs/skill-docs/skill-config).
 
----
+
 
 ## 快速开始
 > 💡 总结来说，你只需要做两件事：申请API Key+ 在AI助手中一键配置，**无需编写代码**，就能让任何支持MCP的AI助手具备酒店搜索能力，5 分钟内完成第一次 MCP Tool 调用，
@@ -110,7 +110,7 @@ API Key
 
 AI会自动调用工具，返回酒店列表。
 
----
+
 
 ## ✨ 功能特性
 
@@ -142,7 +142,7 @@ AI会自动调用工具，返回酒店列表。
 ![showcase1](https://raw.githubusercontent.com/young63/dida-picbed/main/showcase1.png)
 ![showcase2](https://raw.githubusercontent.com/young63/dida-picbed/main/showcase2.png)
 
----
+
 
 ### 示例2：景点周边搜索
 > "2026年七夕节，想在香港迪士尼附近找个性价比高的酒店"

@@ -8,9 +8,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-🏠 [Homepage](https://global.rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Examples](#usage-examples) · [💬 Support](#-support)
+🏠 [Homepage](https://global.rollinggo.store/) · 🚀[ Quick Start](#-quick-start) · 🔧[ Tools](#tools) · 📚[ Examples](#usage-examples) · 💬[ Support](#-support)
 
----
+
 
 ## Why RollingGO?
 
@@ -22,7 +22,7 @@ Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, t
 - **110K+ Direct Partner Hotels**: Real-time price and inventory responses
 - **500+ Global Suppliers**: Covering global, regional, and local hotel brands to meet diverse user needs
 
----
+
 
 ## Who Is This For?
 
@@ -32,7 +32,7 @@ Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, t
 - Developers building travel planning, business travel management, OTA, or lifestyle service agents
 - Product teams validating AI agent business transaction workflows
 
----
+
 
 ## What Is This For?
 
@@ -43,7 +43,7 @@ Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, t
 
 ⚠️ **Note**: If you're using platforms like ClawHub, DingXiang, or Qclaw, please use our [RollingGo Flight & Hotel Booking Skill](https://rollinggo.store/docs/skill-docs/skill-config) for details.
 
----
+
 
 ## 🚀 Quick Start
 
@@ -130,7 +130,7 @@ The server does **not** read the API Key from `.env`. Configure request headers 
 }
 ```
 
----
+
 
 ## Tools
 
