@@ -1,7 +1,15 @@
 ﻿# RollingGo Hotel MCP Server
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
+🌐 **[English](#english-version)** | **[中文](#中文版本)**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
+[![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
+[![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp)
+
+---
+
 ## 简介
 **RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入**。
 
