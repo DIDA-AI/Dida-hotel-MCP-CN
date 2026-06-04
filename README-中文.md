@@ -1,8 +1,6 @@
-﻿# RollingGo Hotel MCP Server
+﻿# RollingGo — Hotel Search & Booking MCP
 
-🌐 **[English](README.md)** | **[中文](#中文版本)**
-
-> 💡 **导航**: [官网](https://rollinggo.store/) · [快速开始](#-快速开始) · [工具](#工具) · [技术支持](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/blob/main/support-wehcat%20group.png) · [使用示例](#使用示例)
+[**CN 中文**](#中文版本) | [**US English**](README.md)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
@@ -12,7 +10,11 @@
 
 ---
 
-## 简介
+[🏠 官网](https://rollinggo.store/) · [🚀 快速开始](#快速开始) · [🔧 工具](#工具) · [📚 使用示例](#使用示例) · [💬 技术支持](#技术支持)
+
+---
+
+## 项目简介
 **RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入**。
 
 官方出品，依托亚洲第一、全球第三的智能驱动全球旅游资源分发服务商，三大核心资源优势，帮助你的 AI 应用零成本快速接入真实酒店预订全流程，把 "问酒店" 变成 "能完成酒店预订流程"：
@@ -20,7 +22,7 @@
 - **11 万 + 直签酒店**：价格库存实时响应，确保查询结果准确可订
 - **500+ 全球供应商**：涵盖全球、区域及本地各类酒店品牌，满足不同用户需求
 
-## 适用人群
+## 为谁而生
 - 有酒店查询、酒店比价、机票监控需求的个人用户
 - 正在开发 AI Agent 的团队或个人开发者
 - 想在 MCP Client 中接入酒店预订能力的开发者
@@ -50,7 +52,7 @@
 
 ---
 
-## 🚀快速开始
+## 快速开始
 > 💡 总结来说，你只需要做两件事：申请API Key+ 在AI助手中一键配置，**无需编写代码**，就能让任何支持MCP的AI助手具备酒店搜索能力，5 分钟内完成第一次 MCP Tool 调用，
 
 ### 第一步：获取API密钥
@@ -117,17 +119,6 @@ API Key
 
 AI会自动调用工具，返回酒店列表。
 
-### 第四步：加入微信群，获取技术支持
-接入路上有任何问题都别担心！欢迎加入我们的微信技术支持群，我们的核心开发团队会全程在线，手把手帮你搞定环境配置、接口调试，陪你跑通第一个成功的酒店预订调用，让你零障碍快速上线。
-
-你可以在群内获得：
-- 接入配置指导
-- API / MCP 调用问题排查
-- 酒店搜索、价格、预订流程说明
-- 适合你业务场景的集成建议
-- 💬 微信群：[扫码加入](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/blob/main/support-wehcat%20group.png)
-- 📧 邮箱：\york.lu@dida.com\
-
 ---
 
 ## ✨ 功能特性
@@ -143,7 +134,7 @@ AI会自动调用工具，返回酒店列表。
 
 ---
 
-## 🛠️ 工具列表
+## 工具
 | 工具名称 | 功能简介 | 使用场景 |
 |----------|---------|----------|
 | **GetHotelSearchTags** | 获取酒店搜索标签元数据 | 启动时缓存，辅助AI理解用户需求 |
@@ -152,7 +143,7 @@ AI会自动调用工具，返回酒店列表。
 ---
 
 
-## 📝 使用示例
+## 使用示例
 
 ### 示例1：城市酒店搜索
 > "帮我看看未来三天内，杭州有哪些4星以上的酒店推荐？"
@@ -223,6 +214,28 @@ AI会自动调用工具，返回酒店列表。
 
 ---
 
+## 技术支持
+
+<div align="center">
+
+### 扫码加入微信群，获取技术支持
+
+![Support WeChat](support-wehcat%20group.png)
+
+核心开发团队会全程在线，搞定环境配置、接口调试，跑通第一个成功的酒店预订调用。
+
+你可以在群内获得：
+- ✅ 接入配置指导
+- ✅ API / MCP 调用问题排查
+- ✅ 酒店搜索、价格、预订流程说明
+- ✅ 适合你业务场景的集成建议
+
+📧 邮箱：[york.lu@dida.com](mailto:york.lu@dida.com)
+
+</div>
+
+---
+
 ## 📋 更新日志
 
 ### v1.0.0 
@@ -232,5 +245,19 @@ AI会自动调用工具，返回酒店列表。
 <div align="center">
 
 **Made with ❤️ by RollingGo Team**
+
+🙇致谢
+感谢每一位开发者的交流、分享与反馈，让RollingGO的迭代更高效。
+加入微信群，获取技术支持。
+核心开发团队会全程在线，搞定环境配置、接口调试，跑通第一个成功的酒店预订调用，零障碍快速上线。
+
+你可以在群内获得：
+- 接入配置指导
+- API / MCP 调用问题排查
+- 酒店搜索、价格、预订流程说明
+- 适合你业务场景的集成建议
+- 💬 微信群：[扫码加入](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/blob/main/support-wehcat%20group.png)
+- 📧 邮箱：\york.lu@dida.com\
+
 
 </div>

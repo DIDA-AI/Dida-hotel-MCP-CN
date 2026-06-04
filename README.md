@@ -1,6 +1,6 @@
-﻿# RollingGo Hotel Search & Booking MCP Server
+﻿# RollingGo — Hotel Search & Booking MCP
 
-🌐 **[English](#english-version)** | **[中文](README-中文.md)**
+[**CN 中文**](README-中文.md) | [**US English**](#english-version)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
@@ -10,7 +10,7 @@
 
 ---
 
-[Homepage (Chinese)](https://rollinggo.store/) · [Homepage (English)](https://global.rollinggo.store/) · [Quick Start](#-quick-start) · [Tools](#tools) · [Examples](#usage-examples)
+[🏠 Official Website](https://rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Usage Examples](#usage-examples) · [💬 Support](#-support)
 
 ---
 
@@ -383,6 +383,28 @@ Retrieves available tags for use in `searchHotels.hotelTags`. Suitable for local
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💬 Support
+
+<div align="center">
+
+### Scan to Join WeChat Group for Technical Support
+
+![Support WeChat](support-wehcat%20group.png)
+
+Our core development team is online to help you with environment setup, API debugging, and successful hotel booking integration.
+
+You can get support for:
+- ✅ Integration configuration guidance
+- ✅ API / MCP troubleshooting
+- ✅ Hotel search, pricing, and booking workflow explanations
+- ✅ Integration suggestions for your use case
+
+📧 Email: [york.lu@dida.com](mailto:york.lu@dida.com)
+
+</div>
 
 ## Links
 - [API Key Application](https://rollinggo.store/apply) 
