@@ -1,6 +1,6 @@
 ﻿# RollingGo — Hotel Search & Booking MCP
 
-[**CN 中文**](README-中文.md) | [**US English**](#english-version)
+[**中文**](README-中文.md) | [**English**](#english-version)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
@@ -8,9 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
----
-
-[🏠 Homepage](https://global.rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Examples](#usage-examples) · [💬 Support](#-support)
+🏠 [Homepage](https://global.rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Examples](#usage-examples) · [💬 Support](#-support)
 
 ---
 

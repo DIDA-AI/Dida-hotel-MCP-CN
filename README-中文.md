@@ -8,8 +8,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
----
-
 [🏠 官网](https://rollinggo.store/) · [🚀 快速开始](#快速开始) · [🔧 工具](#工具) · [📚 使用示例](#使用示例) · [💬 技术支持](#技术支持)
 
 ---
