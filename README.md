@@ -10,7 +10,7 @@
 
 ---
 
-[Homepage (Chinese)](https://rollinggo.store/) · [Homepage (English)](https://global.rollinggo.store/) · [Quick Start](#quick-start) · [Tools](#tools) · [Examples](#examples)
+[Homepage (Chinese)](https://rollinggo.store/) · [Homepage (English)](https://global.rollinggo.store/) · [Quick Start](#-quick-start) · [Tools](#tools) · [Examples](#usage-examples)
 
 ---
 

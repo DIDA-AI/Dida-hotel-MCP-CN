@@ -1,6 +1,8 @@
 ﻿# RollingGo Hotel MCP Server
 
-🌐 **[English](#english-version)** | **[中文](#中文版本)**
+🌐 **[English](README.md)** | **[中文](#%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%AC)**
+
+> 💡 **导航**: [快速开始](#-快速开始) · [工具](#工具) · [使用示例](#使用示例)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
