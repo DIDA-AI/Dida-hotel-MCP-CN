@@ -10,7 +10,7 @@
 
 ---
 
-[🏠 Official Website](https://rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Usage Examples](#usage-examples) · [💬 Support](#-support)
+[🏠 Homepage](https://global.rollinggo.store/) · [🚀 Quick Start](#-quick-start) · [🔧 Tools](#tools) · [📚 Examples](#usage-examples) · [💬 Support](#-support)
 
 ---
 
@@ -387,24 +387,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## 💬 Support
-
-<div align="center">
+📧 Email: [york.lu@dida.com](mailto:york.lu@dida.com)
 
 ### Scan to Join WeChat Group for Technical Support
 
 ![Support WeChat](support-wehcat%20group.png)
 
-Our core development team is online to help you with environment setup, API debugging, and successful hotel booking integration.
 
-You can get support for:
+Developer team is online to help you with:
 - ✅ Integration configuration guidance
 - ✅ API / MCP troubleshooting
 - ✅ Hotel search, pricing, and booking workflow explanations
 - ✅ Integration suggestions for your use case
 
-📧 Email: [york.lu@dida.com](mailto:york.lu@dida.com)
 
+**Made with ❤️ by RollingGo Team**
 </div>
-
-## Links
-- [API Key Application](https://rollinggo.store/apply) 

@@ -40,12 +40,6 @@
 - 提供灵活的**星级筛选、入住日期设置、住宿天数配置、价格区间过滤**等专业筛选功能
 - 基于用户个人偏好提供**个性化推荐，生成高性价比、好评热门、人气精选**等多维度专业榜单
 - 全程自然语言交互，智能完成从**地点解析、筛选比价、个性化推荐到订单生成**的完整闭环
-
-## 你可以让 Agent 完成以下酒店相关任务：
-- 根据目的地、入住日期、离店日期和人数搜索酒店
-- 查询酒店价格和房型信息
-- 判断酒店或房型是否可订
-- 构建酒店推荐、比价、行程规划等 AI 工作流
 - 将酒店能力接入到**Claude、Cursor、Cherry Studio、ChatGPT MCP Client**或其他支持 MCP客户端中
 
 ⚠️如果你使用 ClawHub/扣子/Qclaw等Agent 平台，请使用我们的[Rollinggo全能订机票酒店Skill](https://modelscope.cn/collections/yorklu/RollingGo-quannengdingjiudianjipiao-Skill)。请参考[RollingGo Skill 配置指南](https://rollinggo.store/docs/skill-docs/skill-config).
@@ -57,7 +51,7 @@
 
 ### 第一步：获取API密钥
 
-1. [点击进入申请地址](https://rollinggo.store/)
+1. [点击申请](https://rollinggo.store/)
 2. 填写基本信息，1-3 分钟内自动审核通过，收到邮件包含：
 API Key
 伙伴中心账号（登录名 + 初始密码），登录后可配置加价比例、查看订单、查询收益
@@ -65,7 +59,7 @@ API Key
 4. 为了感谢首批愿意尝鲜、快速行动的开发者，我们特别推出限时福利：**所有收到 API Key 后 3 天内完成第一次工具调用，即可自动解锁永久免费无限制调用额度。**
 我们希望优先支持真正有需求、有执行力的开发者，让大家零成本体验完整的酒店MCP 能力。
 
-> 邮件中同时包含酒店MCP端点和机票MCP端点，一个Key即可接入，你可选择性使用。我们同时在魔搭上架了[RollingGo Flight MCP](https://modelscope.cn/mcp/servers/yorklu/RollingGo_Flight)产品介绍。
+> 邮件中同时包含酒店MCP端点和机票MCP端点，一个Key即可接入，你可选择性使用。我们同时上架了[RollingGo Flight MCP](https://github.com/RollingGo-AI/rollinggo-flight-mcp)。
 
 **为什么需要填写信息申请 KEY**？
 
@@ -75,8 +69,7 @@ API Key
 - 判断你的使用场景，减少无效配置成本
 - 保护接口稳定性，避免恶意调用或异常流量
 - 在测试订单、价格查询、库存校验等问题上能及时联系到你
-
-我们只会将这些信息用于 KEY 开通、接入支持和服务安全，不会对外共享，也不会用于无关用途。若你只是想先体验 MCP，也可以说明你的测试目标，我们会尽量提供轻量的测试支持。
+我们只会将这些信息用于 KEY 开通、接入支持和服务安全，不会对外共享，也不会用于无关用途。
 
 ### 第二步：在AI助手中配置
 
@@ -214,15 +207,12 @@ AI会自动调用工具，返回酒店列表。
 
 ---
 
-## 技术支持
+## 🤝技术支持
+感谢每一位开发者的交流、分享与反馈，让RollingGO的迭代更高效。
 
-<div align="center">
-
-### 扫码加入微信群，获取技术支持
+加入微信群，核心开发团队会全程在线，协助搞定环境配置、接口调试，一起跑通第一个成功的酒店预订调用，零障碍快速上线。
 
 ![Support WeChat](support-wehcat%20group.png)
-
-核心开发团队会全程在线，搞定环境配置、接口调试，跑通第一个成功的酒店预订调用。
 
 你可以在群内获得：
 - ✅ 接入配置指导
@@ -230,34 +220,7 @@ AI会自动调用工具，返回酒店列表。
 - ✅ 酒店搜索、价格、预订流程说明
 - ✅ 适合你业务场景的集成建议
 
-📧 邮箱：[york.lu@dida.com](mailto:york.lu@dida.com)
-
-</div>
-
----
-
-## 📋 更新日志
-
-### v1.0.0 
-- ✨ 文档信息更变
----
-
-<div align="center">
+邮箱：[york.lu@dida.com](mailto:york.lu@dida.com)
 
 **Made with ❤️ by RollingGo Team**
-
-🙇致谢
-感谢每一位开发者的交流、分享与反馈，让RollingGO的迭代更高效。
-加入微信群，获取技术支持。
-核心开发团队会全程在线，搞定环境配置、接口调试，跑通第一个成功的酒店预订调用，零障碍快速上线。
-
-你可以在群内获得：
-- 接入配置指导
-- API / MCP 调用问题排查
-- 酒店搜索、价格、预订流程说明
-- 适合你业务场景的集成建议
-- 💬 微信群：[扫码加入](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/blob/main/support-wehcat%20group.png)
-- 📧 邮箱：\york.lu@dida.com\
-
-
 </div>
