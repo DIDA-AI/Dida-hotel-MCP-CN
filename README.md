@@ -12,7 +12,7 @@
 
 
 
-## Why RollingGO?
+## Why RollingGo?
 
 **RollingGo Hotel MCP** provides AI agents and MCP clients with hotel booking capabilities, designed for developers, AI builders, travel product teams, and enterprise travel scenarios who want to integrate hotel transaction functionality into their AI products. **Both enterprises and individuals can access it completely free with one-click setup.**
 
