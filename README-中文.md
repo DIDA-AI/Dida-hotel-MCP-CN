@@ -1,14 +1,14 @@
 ﻿# RollingGo Hotel MCP Server
 
-🌐 **[English](README.md)** | **[中文](#%E4%B8%AD%E6%96%87%E7%89%88%E6%9C%AC)**
+🌐 **[English](README.md)** | **[中文](#中文版本)**
 
-> 💡 **导航**: [快速开始](#-快速开始) · [工具](#工具) · [使用示例](#使用示例)
+> 💡 **导航**: [官网](https://rollinggo.store/) · [快速开始](#-快速开始) · [工具](#工具) · [技术支持](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/blob/main/support-wehcat%20group.png) · [使用示例](#使用示例)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
 [![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -55,7 +55,7 @@
 
 ### 第一步：获取API密钥
 
-1. [点击进入申请地址](https://mcp.agentichotel.cn/apply)
+1. [点击进入申请地址](https://rollinggo.store/)
 2. 填写基本信息，1-3 分钟内自动审核通过，收到邮件包含：
 API Key
 伙伴中心账号（登录名 + 初始密码），登录后可配置加价比例、查看订单、查询收益
