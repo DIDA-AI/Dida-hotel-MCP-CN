@@ -13,7 +13,21 @@
 
 
 ## 项目简介
-**RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入，无调用量限制**。
+**RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，企业和个人均可完全免费一键接入，无调用量限制。
+
+🔍 按需求**智能筛选和比价**，省心挑酒店
+
+📋 实时查**房型、报价和退改规则**，明明白白不踩坑
+
+🛏️ 心仪房型提前**锁定**，不用愁晚订没房
+
+💳 说句“下单”就实时确认库存和价格**直接付**
+
+📑 订单状态随时能查，全程都省心
+
+💴 还能设置24 小时自动**盯价**，降价马上**提醒**
+
+
 
 | 服务 | 端点 | 已上线 Tool | 认证 |
 |------|------|------------|------|
@@ -28,8 +42,7 @@
 - ✅ **直签酒店资源** - 11万+直签酒店直连，价格库存实时响应，确保查询结果准确可订
 - ✅ **多元供应体系** - 整合500+全球供应商，涵盖各类酒店品牌，满足不同用户预订需求
 - ✅ **差异化价格优势** - 锚定OTA上游供应，海外酒店及上海、香港、日韩等热门目的地价格优势显著
-- ✅ **兼容性** - 支持 Cursor、Claude Code、Codex、Windsurf、Copilot 等 40 多种主流大模型代理
-- ✅ 如果你使用 ClawHub/扣子/Qclaw等Agent 平台，请使用[Rollinggo全能订机票酒店Skill](https://rollinggo.store/solutions/skills)。
+- ✅ **兼容性** - 支持 Cursor、Claude Code、Codex、Windsurf、Copilot 等 40 多种主流大模型代理，针对ClawHub/扣子/Qclaw等Agent 平台，还提供[Rollinggo全能订机票酒店Skill](https://rollinggo.store/solutions/skills)。
   
 ## 适合用户
 - 正在开发 AI Agent 的团队或个人开发者
@@ -228,8 +241,11 @@ AI 会自动调用 `searchHotels` Tool，返回酒店列表。
 
 
 ## 使用示例
+### 示例1：酒店盯价提醒
+> "帮我监控杭州西溪湿地附近这家酒店"
+<img width="350" height="201" alt="acea3df24e3758ade63951aee025e586" src="https://github.com/user-attachments/assets/e6713298-cecc-47c9-8c14-a03deeb665df" />
 
-### 示例1：城市酒店搜索
+### 示例2：城市酒店搜索
 > "帮我看看未来三天内，杭州有哪些4星以上的酒店推荐？"
 
 ![showcase1](https://raw.githubusercontent.com/young63/dida-picbed/main/showcase1.png)
