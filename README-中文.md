@@ -13,19 +13,30 @@
 
 
 ## 项目简介
-**RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入**。
+**RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，**企业和个人均可完全免费一键接入，无调用量限制**。
 
-官方出品，依托亚洲第一、全球第三的智能驱动全球旅游资源分发服务商，三大核心资源优势，帮助你的 AI 应用零成本快速接入真实酒店预订全流程，把 "问酒店" 变成 "能完成酒店预订流程"：
-- **200 万 + 酒店数量**：覆盖全球所有主要目的地，提供全量海内外酒店信息服务
-- **11 万 + 直签酒店**：价格库存实时响应，确保查询结果准确可订
-- **500+ 全球供应商**：涵盖全球、区域及本地各类酒店品牌，满足不同用户需求
+| 服务 | 端点 | 已上线 Tool | 认证 |
+|------|------|------------|------|
+| 酒店 MCP | `https://mcp.rollinggo.cn/mcp` | searchHotels, getHotelDetail, getHotelSearchTags | `Authorization: Bearer <YOUR_API_KEY>` |
+| 机票 MCP | `https://mcp.rollinggo.cn/mcp/flight` | searchAirports, searchFlights | `Authorization: Bearer <YOUR_API_KEY>` |
 
-## 为谁而生
-- 有酒店查询、酒店比价、机票监控需求的个人用户
+
+## MCP亮点
+- ✅ **实时库存价确** - 库存直连+实时价格确认能力，信息零延迟，查询结果均可直接预订
+- ✅ **成熟供应链保障** - 全球第三大酒旅B2B官方数据源，14年旅行产品供应链积累，全链路API直连
+- ✅ **海量酒店覆盖** - 坐拥200万+酒店资源，覆盖全球主要目的地
+- ✅ **直签酒店资源** - 11万+直签酒店直连，价格库存实时响应，确保查询结果准确可订
+- ✅ **多元供应体系** - 整合500+全球供应商，涵盖各类酒店品牌，满足不同用户预订需求
+- ✅ **差异化价格优势** - 锚定OTA上游供应，海外酒店及上海、香港、日韩等热门目的地价格优势显著
+- ✅ **兼容性** - 支持 Cursor、Claude Code、Codex、Windsurf、Copilot 等 40 多种主流大模型代理
+- ✅ 如果你使用 ClawHub/扣子/Qclaw等Agent 平台，请使用[Rollinggo全能订机票酒店Skill](https://rollinggo.store/solutions/skills)。
+  
+## 适合用户
 - 正在开发 AI Agent 的团队或个人开发者
 - 想在 MCP Client 中接入酒店预订能力的开发者
 - 正在构建旅行规划、差旅管理、OTA、生活服务类智能体的开发者
 - 希望验证 AI Agent 商业交易闭环的产品团队
+- 有酒店查询、酒店比价、盯价提醒需求的个人用户
 
 ## 应用场景
 - **通用 AI Agent**：让你的大模型 Agent 直接拥有原生酒店预订能力，用户在自然对话中即可完成从需求理解、智能推荐、比价筛选到订单创建的全流程
@@ -34,105 +45,186 @@
 - **MCP / Agent Demo**：快速验证 "AI Agent 直接完成酒店交易" 的产品能力，打造可演示的完整闭环
 
 ## 核心功能
-- 支持**城市名称、机场代码、热门景点、交通枢纽、酒店名称、具体地址**等 6 种目标地点类型精准搜索
+- 支持**城市名称、热门景点、交通枢纽、酒店名称、具体地址**等 6 种目标地点类型精准搜索
 - 提供灵活的**星级筛选、入住日期设置、住宿天数配置、价格区间过滤**等专业筛选功能
 - 基于用户个人偏好提供**个性化推荐，生成高性价比、好评热门、人气精选**等多维度专业榜单
 - 全程自然语言交互，智能完成从**地点解析、筛选比价、个性化推荐到订单生成**的完整闭环
-- 将酒店能力接入到**Claude、Cursor、Cherry Studio、ChatGPT MCP Client**或其他支持 MCP客户端中
-
-⚠️如果你使用 ClawHub/扣子/Qclaw等Agent 平台，请使用我们的[Rollinggo全能订机票酒店Skill](https://modelscope.cn/collections/yorklu/RollingGo-quannengdingjiudianjipiao-Skill)。请参考[RollingGo Skill 配置指南](https://rollinggo.store/docs/skill-docs/skill-config).
-
 
 
 
 ## 快速开始
-> 💡 总结来说，你只需要做两件事：申请API Key+ 在AI助手中一键配置，**无需编写代码**，就能让任何支持MCP的AI助手具备酒店搜索能力，5 分钟内完成第一次 MCP Tool 调用，
+> 💡 总结来说，你只需要做两件事：申请API Key+ 在AI助手中一键配置，无需编写代码，就能让任何支持MCP的AI助手具备酒店搜索能力，5 分钟内完成第一次 MCP Tool 调用
 
 ### 第一步：获取API密钥
 
-1. [点击申请](https://rollinggo.store/)
-2. 填写基本信息，1-3 分钟内自动审核通过，收到邮件包含：
-API Key
-伙伴中心账号（登录名 + 初始密码），登录后可配置加价比例、查看订单、查询收益
-3. ⚠️ 注意查收邮件，如未收到请检查垃圾邮箱
-4. 为了感谢首批愿意尝鲜、快速行动的开发者，我们特别推出限时福利：**所有收到 API Key 后 3 天内完成第一次工具调用，即可自动解锁永久免费无限制调用额度。**
-我们希望优先支持真正有需求、有执行力的开发者，让大家零成本体验完整的酒店MCP 能力。
+1. [点击申请](https://travelportal-partner-center.dida.com/register?lang=zh)
+2. 填写基本信息，0等待，申领即得。
+3. 为什么需要填写信息申请 KEY？酒店价格、库存和订单能力涉及真实交易链路，因此我们需要为每个开发者开通专属的独立KEY。申请 KEY 时仅需填写少量信息，这样做主要是为了减少无效配置成本，保护接口稳定性，避免恶意调用或异常流量，在测试订单、价格查询、库存校验等问题上能及时联系到你。
 
-> 邮件中同时包含酒店MCP端点和机票MCP端点，一个Key即可接入，你可选择性使用。我们同时上架了[RollingGo Flight MCP](https://github.com/RollingGo-AI/rollinggo-flight-mcp)。
+### 第二步：接入 Agent 工具
 
-**为什么需要填写信息申请 KEY**？
+> 推荐 Claude CLI、Codex、Cursor 三个客户端。其他支持 MCP 的客户端（如 Kiro、豆包等）配置方式类似。
 
-酒店价格、库存和订单能力涉及真实交易链路，因此我们需要为每个开发者开通**免费专属的独立 KEY**。申请 KEY 时仅需填写少量信息，这样做主要是为了：
-- 为你免费开通合适的接口权限
-- 在接入过程中提供技术支持
-- 判断你的使用场景，减少无效配置成本
-- 保护接口稳定性，避免恶意调用或异常流量
-- 在测试订单、价格查询、库存校验等问题上能及时联系到你
-我们只会将这些信息用于 KEY 开通、接入支持和服务安全，不会对外共享，也不会用于无关用途。
+### Claude CLI
 
-### 第二步：在AI助手中配置
+在项目根目录创建 `.mcp.json`：
 
-#### 在 Cursor / Windsurf 中使用 （远程模式）
-
-\\\json
+```json
 {
   "mcpServers": {
-    "aigohotel-mcp": {
-      "serverUrl": "https://mcp.aigohotel.com/mcp",
+    "RollingGo-Hotel": {
+      "url": "https://mcp.rollinggo.cn/mcp",
+      "type": "http",
       "headers": {
-        "Authorization": "Bearer YOUR_API_KEY", //替换成你的API-KEY
-        "Content-Type": "application/json"
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    },
+    "RollingGo-Flight": {
+      "url": "https://mcp.rollinggo.cn/mcp/flight",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
       }
     }
   }
 }
-\\\
-#### 本地模式
-适用于你在本地启动了 \igohotel-mcp\ 服务进程的情况。
-1. **启动后端服务**：确保本地服务已运行并监听 \http://localhost:8000/mcp\。
-2. **添加配置**：在 \mcp.json\ 中使用传统的 \url\ 字段。
-\\\json
+```
+
+也可以通过命令行直接添加：
+
+```bash
+claude mcp add \
+  --transport http \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  RollingGo-Hotel \
+  https://mcp.rollinggo.cn/mcp
+
+claude mcp add \
+  --transport http \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  RollingGo-Flight \
+  https://mcp.rollinggo.cn/mcp/flight
+```
+
+### Codex
+
+配置文件位置：项目根目录 `.codex/config.json` 或全局 `~/.codex/config.json`
+
+```json
 {
   "mcpServers": {
-    "aigohotel-mcp": {
-      "url": "http://localhost:8000/mcp", //本地服务地址
-      "type": "http",
+    "RollingGo-Hotel": {
+      "url": "https://mcp.rollinggo.cn/mcp",
+      "type": "streamable-http",
       "headers": {
-             "X-Secret-Key": "YOUR_API_KEY" // 替换成你的API-KEY
-         }
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    },
+    "RollingGo-Flight": {
+      "url": "https://mcp.rollinggo.cn/mcp/flight",
+      "type": "streamable-http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
     }
   }
 }
-\\\
-### 第三步：开始使用
+```
 
-在AI助手中发送请求，例如：
-> "帮我查一下未来3日内，杭州西湖景区附近有哪些可以看到西湖风景的，4星以上的酒店？"
+### Cursor
 
-AI会自动调用工具，返回酒店列表。
+配置文件位置：项目根目录 `.cursor/mcp.json` 或全局 `~/.cursor/mcp.json`
 
+```json
+{
+  "mcpServers": {
+    "RollingGo-Hotel": {
+      "url": "https://mcp.rollinggo.cn/mcp",
+      "type": "streamable-http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    },
+    "RollingGo-Flight": {
+      "url": "https://mcp.rollinggo.cn/mcp/flight",
+      "type": "streamable-http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
+> 将 `YOUR_API_KEY` 替换为你收到的实际 API Key。酒店和机票使用相同的认证方式，区别仅在于 URL（`/mcp` vs `/mcp/flight`）。
 
-## ✨ 功能特性
+### cURL 直接测试
 
-| 功能 | 说明 |
-|------|------|
-| 🏙️ **多地点搜索** | 支持城市、景点、机场、火车站、地铁站等 |
-| 📅 **日期筛选** | 指定入住日期和住宿天数 |
-| ⭐ **星级过滤** | 支持0-5星筛选，精确到0.5星梯度 |
-| 📍 **距离搜索** | 以景点为中心，限定半径范围（米） |
-| 🛏️ **设施详情** | 可选返回酒店设施、房间设施信息 |
-| 🌐 **多语言** | 支持中文、英文等语言环境 |
+> **注意**：cURL 必须带 `-H "Accept: application/json, text/event-stream"` 头，否则服务端返回 400。
 
+```bash
+curl -X POST https://mcp.rollinggo.cn/mcp \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{
+    "jsonrpc": "2.0",
+    "method": "tools/call",
+    "params": {
+      "name": "searchHotels",
+      "arguments": {
+        "originQuery": "上海外滩五星酒店",
+        "place": "上海外滩",
+        "placeType": "景点",
+        "checkInParam": {
+          "checkInDate": "2026-06-01",
+          "stayNights": 2
+        },
+        "filterOptions": {
+          "starRatings": [5.0]
+        },
+        "size": 3
+      }
+    },
+    "id": 1
+  }'
+```
 
+---
 
-## 工具
-| 工具名称 | 功能简介 | 使用场景 |
-|----------|---------|----------|
-| **GetHotelSearchTags** | 获取酒店搜索标签元数据 | 启动时缓存，辅助AI理解用户需求 |
-| **SearchHotels** | 多条件酒店信息搜索 | 初筛比选候选酒店 |
-| **GetHotelDetail** | 单个酒店房型价格，以及酒店详细信息查询 | 用户选定酒店后查价预订 |
+## 第三步：第一次 MCP 调用
 
+配置完成后，对你的 AI 助手说：
+
+> "帮我搜一下上海外滩附近后天入住的五星酒店"
+
+AI 会自动调用 `searchHotels` Tool，返回酒店列表。
+
+### 酒店搜索示例
+
+```json
+{
+  "jsonrpc": "2.0",
+  "method": "tools/call",
+  "params": {
+    "name": "searchHotels",
+    "arguments": {
+      "originQuery": "上海外滩五星酒店",
+      "place": "上海外滩",
+      "placeType": "景点",
+      "checkInParam": {
+        "checkInDate": "2026-06-01",
+        "stayNights": 2
+      },
+      "filterOptions": {
+        "starRatings": [5.0]
+      },
+      "size": 3
+    }
+  },
+  "id": 1
+}
+```
 
 
 ## 使用示例
@@ -151,6 +243,19 @@ AI会自动调用工具，返回酒店列表。
 ![showcase3](https://raw.githubusercontent.com/young63/dida-picbed/main/showcase3.png )
 ![showcase5](https://raw.githubusercontent.com/young63/dida-picbed/main/showcase5.png)
 ---
+
+
+## ✨ 功能特性
+
+| 功能 | 说明 |
+|------|------|
+| 🏙️ **多地点搜索** | 支持城市、景点、机场、火车站、地铁站等 |
+| 📅 **日期筛选** | 指定入住日期和住宿天数 |
+| ⭐ **星级过滤** | 支持0-5星筛选，精确到0.5星梯度 |
+| 📍 **距离搜索** | 以景点为中心，限定半径范围（米） |
+| 🛏️ **设施详情** | 可选返回酒店设施、房间设施信息 |
+| 🌐 **多语言** | 支持中文、英文等语言环境 |
+
 
 ### 配置参数说明
 
