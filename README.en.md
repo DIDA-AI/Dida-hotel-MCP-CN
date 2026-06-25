@@ -1,6 +1,6 @@
 # RollingGo — Hotel Search & Booking MCP
 
-[**中文**](README-中文.md) | [**English**](#english-version)
+[**中文**](README.md) | [**English**](#english-version)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
