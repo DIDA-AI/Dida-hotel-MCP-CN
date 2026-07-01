@@ -1,10 +1,10 @@
-# RollingGo — Hotel Search & Booking MCP
+# DIDA — Hotel Search & Booking MCP
 
 [**中文**](README.md) | [**English**](#english-version)
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
-[![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp)
+[![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -12,9 +12,9 @@
 
 
 
-## Why RollingGo?
+## Why DIDA?
 
-**RollingGo Hotel MCP** provides AI agents and MCP clients with hotel booking capabilities, designed for developers, AI builders, travel product teams, and enterprise travel scenarios who want to integrate hotel transaction functionality into their AI products. **Both enterprises and individuals can access it completely free with one-click setup.**
+**DIDA Hotel MCP** provides AI agents and MCP clients with hotel booking capabilities, designed for developers, AI builders, travel product teams, and enterprise travel scenarios who want to integrate hotel transaction functionality into their AI products. **Both enterprises and individuals can access it completely free with one-click setup.**
 
 Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, transforming AI "asking about hotels" into "completing full hotel booking workflows":
 
@@ -41,7 +41,7 @@ Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, t
 - **MCP / Agent Demo**: Students/learners quickly validate "AI agents directly completing hotel transactions" capabilities, building complete, demonstrable workflows
 - Integrate hotel capabilities into **Claude, Cursor, Cherry Studio, ChatGPT MCP Client** or other MCP-compliant clients
 
-⚠️ **Note**: If you're using platforms like ClawHub, DingXiang, or Qclaw, please use our [RollingGo Flight & Hotel Booking Skill](https://rollinggo.store/docs/skill-docs/skill-config) for details.
+⚠️ **Note**: If you're using platforms like ClawHub, DingXiang, or Qclaw, please use our [DIDA Flight & Hotel Booking Skill](https://rollinggo.store/docs/skill-docs/skill-config) for details.
 
 
 
@@ -58,7 +58,7 @@ Official product backed by Asia's #1 and world's #3 B2B travel platform, DIDA, t
 3. ⚠️ Check your email (including spam folder) for the API Key
 4. **Limited-Time Offer**: All developers who complete their first tool call within 3 days of receiving the API Key unlock **permanent unlimited free access**. We prioritize developers with real needs and execution speed, offering zero-cost access to complete hotel MCP capabilities.
 
-> The email includes both hotel and flight MCP endpoints – 1 key for both. We've also published [RollingGo Flight MCP](https://github.com/RollingGo-AI/rollinggo-flight-mcp.git).
+> The email includes both hotel and flight MCP endpoints – 1 key for both. We've also published [DIDA Flight MCP](https://github.com/RollingGo-AI/rollinggo-flight-mcp.git).
 
 
 
@@ -80,8 +80,8 @@ We only use this information for key provisioning, integration support, and serv
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/RollingGo-AI/rollinggo-ai-hotel.git
-cd rollinggo-ai-hotel
+git clone https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN.git
+cd DIDA-Hotel-MCP-CN
 ```
 
 ### 2. Install Dependencies
@@ -118,7 +118,7 @@ The server does **not** read the API Key from `.env`. Configure request headers 
 ```json
 {
   "mcpServers": {
-    "RollingGo-MCP": {
+    "DIDA-MCP": {
       "url": "http://localhost:8000/mcp",
       "type": "http",
       "headers": {
@@ -398,5 +398,5 @@ Developer team is online to help you with:
 - ✅ Integration suggestions for your use case
 
 
-**Made with ❤️ by RollingGo Team**
+**Made with ❤️ by DIDA Team**
 </div>

@@ -1,10 +1,10 @@
-﻿# RollingGo — Hotel Search & Booking MCP
+# DIDA — Hotel Search & Booking MCP
 
 [**中文**](#中文版本) | [**English**](README.en.md)
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
-[![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/RollingGo-AI/rollinggo-hotel-mcp)
+[![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -14,7 +14,7 @@
 
 
 ## 项目简介
-**RollingGo Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，企业和个人均可完全免费一键接入，无调用量限制。
+**DIDA Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，企业和个人均可完全免费一键接入，无调用量限制。
 
 🔍 按需求**智能筛选和比价**，省心挑酒店
 
@@ -43,7 +43,7 @@
 - ✅ **直签酒店资源** - 11万+直签酒店直连，价格库存实时响应，确保查询结果准确可订
 - ✅ **多元供应体系** - 整合500+全球供应商，涵盖各类酒店品牌，满足不同用户预订需求
 - ✅ **差异化价格优势** - 锚定OTA上游供应，海外酒店及上海、香港、日韩等热门目的地价格优势显著
-- ✅ **兼容性** - 支持 Cursor、Claude Code、Codex、Windsurf、Copilot 等 40 多种主流大模型代理，针对ClawHub/扣子/Qclaw等Agent 平台，还提供[Rollinggo全能订机票酒店Skill](https://rollinggo.store/solutions/skills)。
+- ✅ **兼容性** - 支持 Cursor、Claude Code、Codex、Windsurf、Copilot 等 40 多种主流大模型代理，针对ClawHub/扣子/Qclaw等Agent 平台，还提供[DIDA全能订机票酒店Skill](https://rollinggo.store/solutions/skills)。
   
 ## 适合用户
 - 正在开发 AI Agent 的团队或个人开发者
@@ -86,14 +86,14 @@
 ```json
 {
   "mcpServers": {
-    "RollingGo-Hotel": {
+    "DIDA-Hotel": {
       "url": "https://mcp.rollinggo.cn/mcp",
       "type": "http",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
     },
-    "RollingGo-Flight": {
+    "DIDA-Flight": {
       "url": "https://mcp.rollinggo.cn/mcp/flight",
       "type": "http",
       "headers": {
@@ -110,13 +110,13 @@
 claude mcp add \
   --transport http \
   --header "Authorization: Bearer YOUR_API_KEY" \
-  RollingGo-Hotel \
+  DIDA-Hotel \
   https://mcp.rollinggo.cn/mcp
 
 claude mcp add \
   --transport http \
   --header "Authorization: Bearer YOUR_API_KEY" \
-  RollingGo-Flight \
+  DIDA-Flight \
   https://mcp.rollinggo.cn/mcp/flight
 ```
 
@@ -127,14 +127,14 @@ claude mcp add \
 ```json
 {
   "mcpServers": {
-    "RollingGo-Hotel": {
+    "DIDA-Hotel": {
       "url": "https://mcp.rollinggo.cn/mcp",
       "type": "streamable-http",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
     },
-    "RollingGo-Flight": {
+    "DIDA-Flight": {
       "url": "https://mcp.rollinggo.cn/mcp/flight",
       "type": "streamable-http",
       "headers": {
@@ -152,14 +152,14 @@ claude mcp add \
 ```json
 {
   "mcpServers": {
-    "RollingGo-Hotel": {
+    "DIDA-Hotel": {
       "url": "https://mcp.rollinggo.cn/mcp",
       "type": "streamable-http",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
     },
-    "RollingGo-Flight": {
+    "DIDA-Flight": {
       "url": "https://mcp.rollinggo.cn/mcp/flight",
       "type": "streamable-http",
       "headers": {
@@ -329,7 +329,7 @@ AI 会自动调用 `searchHotels` Tool，返回酒店列表。
 
 
 ## 🤝技术支持
-感谢每一位开发者的交流、分享与反馈，让RollingGO的迭代更高效。
+感谢每一位开发者的交流、分享与反馈，让DIDA的迭代更高效。
 
 加入微信群，核心开发团队会全程在线，协助搞定环境配置、接口调试，一起跑通第一个成功的酒店预订调用，零障碍快速上线。
 
@@ -343,5 +343,5 @@ AI 会自动调用 `searchHotels` Tool，返回酒店列表。
 
 邮箱：[york.lu@dida.com](mailto:york.lu@dida.com)
 
-**Made with ❤️ by RollingGo Team**
+**Made with ❤️ by DIDA Team**
 </div>
