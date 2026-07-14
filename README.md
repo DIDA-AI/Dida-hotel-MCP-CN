@@ -8,8 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-🏠 [官网](https://rollinggo.store/) · 🚀[ 快速开始](#快速开始) · 📚[ 使用示例](#使用示例) · 💬[ 技术支持](#技术支持)📚 [接入教程-视频版(0基础0代码可实操)](https://www.xiaohongshu.com/discovery/item/6a22affe0000000017029504?app_platform=ios&app_version=9.33.4&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBwWFsJ1iLP0QLjYWHV4RatLComUk4vekr3adma28ssMU=&author_share=1&xhsshare=CopyLink&shareRedId=NzxGN0RLSTo-O0pGTEwzOTszTkBGSUlM&apptime=1782376771&share_id=09ec1dc114174939916826fc8471d07a&code=051iMqFa1D1hXL08HNGa1Eq5Jb3iMqF7&state=wx_oauth)
-📚 [接入教程-文档版](https://rollinggo.store/docs/mcp-docs/quick-start)
+🏠 [官网](https://rollinggo.store/)🚀[ 快速开始](#快速开始)📚[ 使用示例](#使用示例)💬[ 技术支持](#技术支持)📚 [接入视频(0基础0代码可实操)](https://www.xiaohongshu.com/discovery/item/6a22affe0000000017029504?app_platform=ios&app_version=9.33.4&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBwWFsJ1iLP0QLjYWHV4RatLComUk4vekr3adma28ssMU=&author_share=1&xhsshare=CopyLink&shareRedId=NzxGN0RLSTo-O0pGTEwzOTszTkBGSUlM&apptime=1782376771&share_id=09ec1dc114174939916826fc8471d07a&code=051iMqFa1D1hXL08HNGa1Eq5Jb3iMqF7&state=wx_oauth)
+📚 [接入文档](https://rollinggo.store/docs/mcp-docs/quick-start) · 💰[开发者变现](https://rollinggo.store/docs/partnerdoc/partner1) 
 
 
 
