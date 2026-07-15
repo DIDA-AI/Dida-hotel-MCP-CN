@@ -1,4 +1,4 @@
-# DIDA — Hotel Search & Booking MCP
+# DIDA — Hotel Search & Booking MCP | 道旅酒店MCP
 
 [**中文**](#中文版本) | [**English**](README.en.md)
 
@@ -14,7 +14,7 @@
 
 
 ## 项目简介
-**DIDA Hotel MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，企业和个人均可完全免费一键接入，无调用量限制。
+**道旅酒店MCP**为 AI Agent 和 MCP 客户端提供酒店预订能力，它适合希望在 AI 产品中接入酒店交易能力的开发者、Agent 构建者、旅游产品团队和企业差旅场景，企业和个人均可完全免费一键接入，无调用量限制。
 
 🔍 按需求**智能筛选和比价**，省心挑酒店
 
@@ -33,7 +33,12 @@
 | 服务 | 端点 | 已上线 Tool | 认证 |
 |------|------|------------|------|
 | 酒店 MCP | `https://mcp.rollinggo.cn/mcp` | searchHotels, getHotelDetail, getHotelSearchTags | `Authorization: Bearer <YOUR_API_KEY>` |
-| 机票 MCP | `https://mcp.rollinggo.cn/mcp/flight` | searchAirports, searchFlights | `Authorization: Bearer <YOUR_API_KEY>` |
+
+- **传输协议**：`streamable-http`
+- **价格**：完全免费，无调用量限制
+- **接入方式**：参考本文档可自助完成，适合需要短时间完成快速原型验证和工具开发
+
+道旅MCP还提供OAuth 2.0 授权码模式，提供7个工具，包括：getHotelSearchTags, searchHotels, getHotelDetail, hotelPriceConfirm, searchHotelOrders等。该模式适合企业级生产应用深度集成，需商务对接contact@rollinggo.ai。
 
 
 ## MCP亮点
