@@ -1,7 +1,5 @@
 # 道旅酒店MCP | DIDA — Hotel Search & Booking MCP
 
-[**中文**](#中文版本) | [**English**](README.en.md)
-
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN/releases)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Rank%237-brightgreen.svg)](https://modelscope.cn/)
 [![Calls](https://img.shields.io/badge/Calls-847.3k-orange.svg)](https://github.com/DIDA-AI/DIDA-Hotel-MCP-CN)
