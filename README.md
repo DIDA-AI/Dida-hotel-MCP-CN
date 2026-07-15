@@ -37,6 +37,8 @@
 - **接入方式**：参考本文档可自助完成，适合需要短时间完成快速原型验证和工具开发
 
 道旅MCP还提供OAuth 2.0 授权码模式，提供7个工具，包括：getHotelSearchTags, searchHotels, getHotelDetail, hotelPriceConfirm, searchHotelOrders等。该模式适合企业级生产应用深度集成，需商务对接contact@rollinggo.ai。
+> 如果你是国际用户，或者你的目标用户为中国以外的国际化国家，请参考 [Dida-Hotel-MCP-Global](https://github.com/DIDA-AI/Dida-Hotel-MCP-Global)。该版本支持信用卡支付，适合非中国大陆地区的业务场景。
+
 
 
 ## MCP亮点
