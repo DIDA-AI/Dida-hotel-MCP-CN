@@ -1,4 +1,4 @@
-# DIDA — Hotel Search & Booking MCP | 道旅酒店MCP
+# 道旅酒店MCP | DIDA — Hotel Search & Booking MCP
 
 [**中文**](#中文版本) | [**English**](README.en.md)
 
