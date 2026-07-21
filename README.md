@@ -348,5 +348,39 @@ AI 会自动调用 `searchHotels` Tool，返回酒店列表。
 
 邮箱：[york.lu@dida.com](mailto:york.lu@dida.com)
 
+## ⚠ 附录：道旅Hotel MCP (OAuth) v2.3 更新说明
+
+v2.3 优化了订单查询结构，新增多个订单详情字段，帮助 Agent 更好地处理入住、支付和取消场景。注：此更新仅适用于 OAuth 接入版本，非本文档所述的 API Key 版本。OAuth 版本需商务对接。
+
+### What changed
+
+#### Unchanged tools (4)
+
+- `getHotelSearchTags` — 获取所有可用酒店筛选标签
+- `searchHotels` — 按条件搜索全球酒店列表
+- `getHotelDetail` — 获取指定酒店的可用房型及价格
+- `hotelPriceConfirm` — 锁定选中房型的实时最终零售价
+
+#### Modified tools (2)
+
+- `createHotelBookingWithPaymentURL` — 移除 `alipayUrlScene` 参数；`bookingResult.paymentUrl` 统一为通用收银台
+- `searchHotelOrders` — 输出精简为 9 个核心字段（`orderNo`、`hotelName`、`roomName`、`orderStatus`、`totalPrice` 等），仅用于列表展示；完整详情移至独立接口查询
+
+#### New tools (1)
+
+- `getHotelOrderDetail` — 按 `orderNo` 查询完整订单详情，包含 `hotelConfirmationNo`、入住人名单、床型、联系电话、经纬度、支付/取消截止时间、政策标识等
+
+#### New fields
+
+- `hotelConfirmationNo` — 酒店侧真实确认号，供前台查询入住
+- `stayInfo.bedTypeStr` — 床型中文描述（如 `"1张特大床 (1.8m)"`）
+- `stayInfo.guestNames` — 入住人拼音/英文姓名列表，用于入住核验
+- `priceInfo.paymentDeadline` — 支付截止时间（`YYYY-MM-DD HH:mm:ss`），用于倒计时提醒
+- `policyInfo.freeCancelDeadline` — 免费取消截止时间，用于判断退款窗口
+- `policyInfo.isCancelable` — 当前时刻是否仍可免费取消
+
+
+#### **工具总数**： 7 个（V2.2 为 6 个）—— 新增 1 个，变更 2 个，未变更 4 个。
+---
 **Made with ❤️ by DIDA Team**
 </div>
